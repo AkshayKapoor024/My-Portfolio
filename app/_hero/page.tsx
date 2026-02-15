@@ -11,7 +11,7 @@ export default function Hero() {
     const [link,setLink] = useState<string>("https://img.icons8.com/ios/50/22c3ad/mail.png")
 
     return (
-        <section id={'hero'} className="2xl:py-0 py-10 relative overflow-hidden bg-background">
+        <section id={'hero'} className="lg:py-0 py-20 relative overflow-hidden bg-background">
             <div className="absolute inset-0 bg-shapes"></div>
             <div className="absolute inset-0 dot-pattern opacity-30"></div>
             <div className="absolute top-20 left-20 w-64 h-64 rounded-full bg-coral/10 blur-3xl"></div>
