@@ -125,7 +125,7 @@ export default function Nav() {
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -20 }}
       transition={{ duration: 0.25 }}
-      className="lg:hidden fixed top-[64px] z-50 left-0 w-full bg-white shadow-xl ring-1 ring-[#00000010] px-6 py-8 flex flex-col gap-6 z-40"
+      className="lg:hidden fixed top-[64px] z-50 left-0 w-full bg-white shadow-xl ring-1 ring-[#00000010] px-6 py-8 flex flex-col gap-6 "
     >
       <Link
         href="#aboutme"
