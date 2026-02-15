@@ -1,0 +1,20 @@
+
+@import "tailwindcss";
+@plugin '../hero.ts';
+
+@source '../node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}';
+
+.bg-shapes {
+  background-image: 
+    radial-gradient(at 20% 30%, hsl(12, 90%, 58%, 0.15) 0px, transparent 50%),
+    radial-gradient(at 80% 20%, hsl(172, 70%, 45%, 0.10) 0px, transparent 50%),
+    radial-gradient(at 40% 80%, hsl(262, 80%, 60%, 0.08) 0px, transparent 50%),
+    radial-gradient(at 90% 80%, hsl(330, 80%, 65%, 0.08) 0px, transparent 50%);
+}
+
+.font-jakarta {
+  font-family: var(--font-plus-jakarta-sans), sans-serif;
+}
+*{
+  scroll-behavior: smooth;
+}
