@@ -76,7 +76,7 @@ export default function ContactMe() {
                 <div className="w-full 2xl:w-[45%] flex flex-col gap-5">
 
                     {/* Contact Info Card */}
-                    <div className="p-5 flex flex-col gap-5 rounded-2xl ring-2 ring-[#f45a3330] w-full bg-gradient-to-br from-[#f45a3310] to-[#22C3AD10]">
+                    <div className="p-5 sm:p-5 flex flex-col gap-5 rounded-2xl ring-2 ring-[#f45a3330] w-full bg-gradient-to-br from-[#f45a3310] to-[#22C3AD10]">
 
                         <div className="flex flex-col gap-2">
                             <div className="text-lg sm:text-xl font-bold">Contact Information</div>
@@ -85,13 +85,13 @@ export default function ContactMe() {
                             </div>
                         </div>
 
-                        <div className="flex bg-white p-4 sm:p-5 ring-2 ring-[#00000015] shadow-md rounded-2xl hover:cursor-pointer hover:ring-[#f45a3350] transition-all duration-100 ease-in-out hover:shadow-xl">
+                        <div className="flex bg-white p-4 sm:p-5 ring-2 ring-[#00000015] shadow-md rounded-2xl hover:cursor-pointer hover:ring-[#f45a3350] transition-all duration-100 justify-start items-center ease-in-out hover:shadow-xl">
                             <div className="bg-[#f45a3320] flex justify-center items-center p-3 rounded-xl">
-                                <img width="25" height={25} src="https://img.icons8.com/ios/50/f45a33/mail.png" alt="No Image Available" />
+                                <img width="25" height="25" src="https://img.icons8.com/ios/50/f45a33/mail.png" alt="No Image Available" />
                             </div>
                             <div className="flex flex-col gap-1 px-4 sm:px-5">
                                 <div className="font-bold">Email</div>
-                                <div className="text-gray-500 text-sm sm:text-base break-all">
+                                <div className="text-gray-500 text-xs sm:text-base break-all">
                                     work.akshaykapoor24@gmail.com
                                 </div>
                             </div>
