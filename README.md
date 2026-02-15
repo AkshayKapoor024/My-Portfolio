@@ -1,53 +1,182 @@
-# Next.js & HeroUI Template
+<!-- =============================== -->
+<!--          HERO SECTION           -->
+<!-- =============================== -->
 
-This is a template for creating applications using Next.js 14 (app directory) and HeroUI (v2).
+<h1 align="center">
+  <span style="color:#f45a33;">Akshay</span> 
+  <span style="color:#22C3AD;">| Full-Stack Developer</span>
+</h1>
 
-[Try it on CodeSandbox](https://githubbox.com/heroui-inc/heroui/next-app-template)
+<p align="center">
+  <b>Engineering modern web experiences with logic, precision & design clarity.</b>
+</p>
 
-## Technologies Used
+<p align="center">
+  <img src="https://img.shields.io/badge/Full--Stack-Developer-f45a33?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Modern-UI/UX-22C3AD?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Problem-Solver-8347EA?style=for-the-badge" />
+</p>
 
-- [Next.js 14](https://nextjs.org/docs/getting-started)
-- [HeroUI v2](https://heroui.com/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [next-themes](https://github.com/pacocoursey/next-themes)
+---
 
-## How to Use
+# 👨‍💻 About Me
 
-### Use the template with create-next-app
+Hi 👋 I'm **Akshay**, a passionate B.Tech student and Full-Stack Developer focused on building real-world applications that solve meaningful problems.
 
-To create a new project based on this template using `create-next-app`, run the following command:
+I believe in:
 
-```bash
-npx create-next-app -e https://github.com/heroui-inc/next-app-template
-```
+- 🧠 Logic before code  
+- 🎨 Design with intention  
+- ⚡ Performance with scalability  
+- 🧩 Clean architecture  
+- 📱 Fully responsive systems  
 
-### Install dependencies
+I don’t just create projects — I craft engineered solutions.
 
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
+---
 
-```bash
-npm install
-```
+# 🎨 Design Identity
 
-### Run the development server
+My portfolio design reflects:
 
-```bash
-npm run dev
-```
+- 🧡 Primary Accent → `#f45a33`
+- 💚 Secondary Accent → `#22C3AD`
+- 🌈 Gradient innovation blend
+- 🧊 Soft shadows & glass effects
+- 📱 Mobile-first responsiveness
+- ✨ Subtle motion using Framer Motion
 
-### Setup pnpm (optional)
+Clean. Intentional. Structured.
 
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
+---
 
-```bash
-public-hoist-pattern[]=*@heroui/*
-```
+# 🛠 Tech Stack
 
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
+## 💻 Frontend
+- ⚛ React  
+- ⚡ Next.js  
+- 🎨 Tailwind CSS  
+- 🎭 Framer Motion  
+- 🧩 Component Libraries  
+- 📦 TypeScript  
 
-## License
+## 🗄 Backend
+- 🟢 Node.js  
+- 🚀 Express.js  
+- 🛢 MongoDB  
+- 🔐 REST APIs & Authentication  
 
-Licensed under the [MIT license](https://github.com/heroui-inc/next-app-template/blob/main/LICENSE).
+## ⚙ Tools
+- 🐙 Git & GitHub  
+- 🖥 VS Code  
+- ☁ Deployment Platforms  
+- 📡 API Integrations  
+
+---
+
+# 🌟 Projects Philosophy
+
+Each project in my portfolio includes:
+
+- 📌 Clear Problem Statement  
+- 🧠 Structured Solution Approach  
+- 🔍 Technical Overview  
+- 🎯 Real-world Application  
+- 🛠 Modern Tech Stack  
+
+They are built to demonstrate engineering depth — not tutorial replication.
+
+---
+
+# 💎 Core Strengths
+
+- 🧠 Strong analytical thinking  
+- 🎨 UI detail orientation  
+- ⚡ Performance optimization  
+- 🧩 Component reusability  
+- 📱 Responsive mastery  
+- 🔄 Clean state management  
+- 📚 Continuous learner mindset  
+
+---
+
+# 🚀 Current Focus
+
+- Advanced Full-Stack Architecture  
+- Scalable backend systems  
+- System design fundamentals  
+- Production-ready deployment  
+- Building SaaS-ready applications  
+
+---
+
+# 🎯 Future Vision
+
+- 🚀 Launch independent tech products  
+- 🌍 Contribute to large-scale systems  
+- 🧠 Master system design  
+- 🔥 Build impactful software solutions  
+
+---
+
+# 📬 Connect With Me
+
+<p align="center">
+
+<a href="YOUR_PORTFOLIO_LINK">
+  <img src="https://img.shields.io/badge/Portfolio-Visit-f45a33?style=for-the-badge&logo=vercel&logoColor=white" />
+</a>
+
+<a href="https://github.com/AkshayKapoor024">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-22C3AD?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+<a href="https://github.com/AkshayKapoor024">
+  <img src="https://img.shields.io/badge/GitHub-Follow-16161c?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</p>
+
+---
+
+# 💡 Why This Portfolio Exists
+
+This portfolio is a reflection of:
+
+- 🧠 Engineering clarity  
+- 🎨 Design precision  
+- ⚡ Performance focus  
+- 🧩 Scalable structuring  
+- 📱 Responsive excellence  
+- ✨ Smooth animation integration  
+
+It represents how I think as a developer.
+
+---
+
+# 🌐 Suggested Portfolio Domain Names
+
+### 🔥 Premium & Clean
+- akshay.dev  
+- akshayengine.dev  
+- buildwithakshay.com  
+- akshaycodes.dev  
+
+### 🧠 Modern & Unique
+- akshaylabs.dev  
+- akshaystack.dev  
+- akshayworks.dev  
+- akshayverse.dev  
+
+### 🚀 Strong Personal Branding
+- heyakshay.dev  
+- theakshay.dev  
+- akshaybuilds.dev  
+
+> Recommended: **akshay.dev** (clean, powerful, timeless)
+
+---
+
+<p align="center">
+  <b>Crafted with 🧡 Logic • 💚 Design • 🚀 Ambition</b>
+</p>
