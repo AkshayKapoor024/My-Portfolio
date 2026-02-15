@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   description:"Portfolio website to show skills and achievements.",
   icons: {
-    icon: "/favicon.ico",
+    icon: "Favicon.png",
   },
 };
 
