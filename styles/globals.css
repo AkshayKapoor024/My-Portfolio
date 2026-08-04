@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+@plugin '../hero.ts';
+@source '../node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}';
+
+/* ═══════════════════════════════════════════════════════════
+   DESIGN SYSTEM  ·  Akshay Kapoor Portfolio v3
+   Philosophy: Precision dark · Asymmetric structure · High contrast
+   Palette: Deep slate blacks · Electric indigo · Warm white type
+   Fonts: Space Grotesk (display) + JetBrains Mono (code labels)
+════════════════════════════════════════════════════════════ */
+
+:root {
+  --bg:          #060608;
+  --bg2:         #0c0c10;
+  --bg3:         #111118;
+  --bg4:         #18181f;
+  --border:      rgba(255,255,255,0.06);
+  --border2:     rgba(255,255,255,0.11);
+
+  --indigo:      #6366f1;
+  --indigo-dim:  rgba(99,102,241,0.10);
+  --indigo-ring: rgba(99,102,241,0.30);
+  --indigo-glow: rgba(99,102,241,0.18);
+
+  --white:   #f0f0f4;
+  --g1:      #9898aa;
+  --g2:      #56566a;
+  --g3:      #25252f;
+
+  --green:   #34d399;
+  --amber:   #fbbf24;
+}
+
+*, *::before, *::after { box-sizing: border-box; scroll-behavior: smooth; }
+body {
+  margin: 0; background: var(--bg); color: var(--white);
+  font-family: 'Space Grotesk', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+::-webkit-scrollbar { width: 3px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--indigo); border-radius: 2px; }
+
+/* ── Type ──────────────────────────────────── */
+.display { font-family: 'Space Grotesk', sans-serif; font-weight: 700; letter-spacing: -0.04em; }
+.mono    { font-family: 'JetBrains Mono', monospace; }
+
+/* ── Section label ─────────────────────────── */
+.tag {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.68rem; letter-spacing: 0.16em; text-transform: uppercase;
+  color: var(--indigo);
+  padding: 5px 12px; border-radius: 4px;
+  border: 1px solid var(--indigo-ring);
+  background: var(--indigo-dim);
+}
+
+/* ── Divider ───────────────────────────────── */
+.divider { width: 100%; height: 1px; background: var(--border); }
+
+/* ── Cards ─────────────────────────────────── */
+.card {
+  background: var(--bg3); border: 1px solid var(--border); border-radius: 14px;
+  transition: border-color 0.2s, background 0.2s;
+}
+.card:hover { border-color: var(--border2); background: var(--bg4); }
+.card-i { border-color: var(--indigo-ring) !important; background: var(--indigo-dim) !important; }
+
+/* ── Buttons ───────────────────────────────── */
+.btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  border-radius: 8px; font-family: 'Space Grotesk', sans-serif;
+  font-weight: 600; font-size: 0.875rem; cursor: pointer;
+  transition: opacity 0.15s, transform 0.15s; border: none;
+  text-decoration: none;
+}
+.btn-p { background: var(--indigo); color: #fff; padding: 11px 24px; }
+.btn-p:hover { opacity: 0.85; transform: translateY(-1px); }
+.btn-g {
+  background: transparent; color: var(--white); padding: 10px 22px;
+  border: 1px solid var(--border2);
+}
+.btn-g:hover { border-color: var(--indigo-ring); background: var(--indigo-dim); }
+
+/* ── Skill chip ────────────────────────────── */
+.chip {
+  display: inline-flex; align-items: center; gap: 7px;
+  padding: 8px 13px; border-radius: 8px;
+  border: 1px solid var(--border); background: var(--bg3);
+  color: var(--g1); font-size: 0.8rem; font-weight: 500;
+  transition: all 0.15s; cursor: default;
+}
+.chip:hover { border-color: var(--indigo-ring); background: var(--indigo-dim); color: var(--white); }
+.chip-ai { border-color: var(--indigo-ring); background: var(--indigo-dim); color: var(--indigo); }
+
+/* ── Dark form field ───────────────────────── */
+.field {
+  width: 100%; background: var(--bg2); border: 1px solid var(--border);
+  border-radius: 8px; padding: 13px 16px;
+  color: var(--white); font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.88rem; outline: none; transition: border-color 0.15s;
+}
+.field::placeholder { color: var(--g2); }
+.field:focus { border-color: var(--indigo); }
+
+/* ── Animated mesh background ──────────────── */
+.mesh {
+  position: absolute; inset: 0; pointer-events: none; overflow: hidden;
+}
+.mesh-blob {
+  position: absolute; border-radius: 50%;
+  filter: blur(90px); opacity: 0.55;
+}
+
+/* ── Profile image ring ────────────────────── */
+.profile-ring {
+  position: relative; display: inline-block;
+  border-radius: 22px; overflow: hidden;
+  box-shadow: 0 0 0 1px var(--border2), 0 0 40px var(--indigo-glow), 0 32px 64px rgba(0,0,0,0.5);
+}
+
+/* ── Experience timeline ───────────────────── */
+.exp-connector {
+  position: absolute; left: 0; top: 28px; bottom: 0;
+  width: 1px; background: var(--border);
+}
+.exp-dot {
+  position: absolute; left: -28px; top: 8px;
+  width: 8px; height: 8px; border-radius: 50%;
+}
+.exp-dot-active { background: var(--green); box-shadow: 0 0 0 3px rgba(52,211,153,0.2); }
+.exp-dot-past   { background: var(--g3); border: 1px solid var(--g2); }
+
+/* ── Cat tab ────────────────────────────────── */
+.cat-tab {
+  padding: 7px 16px; border-radius: 6px;
+  border: 1px solid var(--border);
+  background: transparent; color: var(--g1);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.72rem; letter-spacing: 0.05em;
+  cursor: pointer; transition: all 0.15s;
+}
+.cat-tab:hover { border-color: var(--border2); color: var(--white); }
+.cat-tab.active { border-color: var(--indigo); background: var(--indigo-dim); color: var(--indigo); }
+
+/* ── Status dot ─────────────────────────────── */
+@keyframes pulse-g { 0%,100%{opacity:1} 50%{opacity:0.35} }
+.status-dot {
+  width: 7px; height: 7px; border-radius: 50%;
+  background: var(--green); animation: pulse-g 2s ease infinite;
+}
+
+/* ── Resume modal overlay ───────────────────── */
+.resume-overlay {
+  position: fixed; inset: 0; z-index: 300;
+  background: rgba(0,0,0,0.75); backdrop-filter: blur(16px);
+  display: flex; align-items: center; justify-content: center; padding: 24px;
+}
+.resume-modal {
+  background: var(--bg3); border: 1px solid var(--border2);
+  border-radius: 18px; padding: 36px; width: 100%; max-width: 440px;
+  position: relative;
+}
+
+/* ── Swiper base ─────────────────────────────── */
+.swiper { padding-bottom: 0 !important; }
+
+/* ── Animations ─────────────────────────────── */
+@keyframes float-slow { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-14px)} }
+@keyframes spin-slow  { to{transform:rotate(360deg)} }
